@@ -2,11 +2,7 @@ html {
   font-size: 100%;
 }
 
-
 /* <!-- \\  Padding og margin på de forskellige div'er. \\ --> */
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -18,19 +14,20 @@ body {
 }
 
 /* <!-- \\  Galleri \\ --> */
-
-
 .photoGallery {
-    width: 100vw;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-    scroll-snap-type: x mandatory;
+  width: 100vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
 }
 
 .map {
-width: 100vw;
-
+  height: 500px;
+  width: 90%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* <!-- \\  Galleri \\ --> */
+/* <!-- \\  Google Map API \\ --> */

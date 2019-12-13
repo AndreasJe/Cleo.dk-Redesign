@@ -1,13 +1,14 @@
-
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
-        });
-      }
+    < script async defer src = "https://maps.googleapis.com/maps/api/js?&callback=initMap" > < /script
 
 
-async defer
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCduFbgRBRTr4ERPfCz46yRKthEXHJIuLA&callback=initMap"
-    async defer></script>
+    var map;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {
+          lat: 12.6018144,17,
+          lng: 55.6619472
+        },
+        zoom: 8
+      });
+    }
