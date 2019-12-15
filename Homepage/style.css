@@ -64,39 +64,48 @@ a:hover {
 
 /* <!-- \\  Styling af de forskellige main-div'er. \\ --> */
 body {
-  margin: 0;
+  margin: 20px;
   background-color: #E8E8E8;
   border: 50px #B39B83;
+
 }
 
 .sectionwrapper {
   height: 100%;
-  max-width: 80vw;
+  width: 100%;
   margin: auto;
-  border: 50px #B39B83;
+  border: 1vw solid #B39B83;
   background-color: #7A6054;
+  position: relative;
 }
 
 .container {
   height: 100%;
   width: 100%;
 
-
 }
 
 .txt_container {
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .txt {
   text-align: center;
+  height: 100%;
 }
 
 /* <!-- \\  Overskrifter \\ --> */
+
 .title_block {
   background-color: #B39B83;
   text-align: center;
+  height: 8vw;
+  width: 100%;
 }
+
 
 .btn {
   background-color: #B39B83;
@@ -107,7 +116,7 @@ body {
   background-image: url(assets/img/splash_eks.png);
   background-size: cover;
   height: 40vw;
-  width: 80vw;
+  width: 100%;
   position: relative;
   margin: auto;
   background-position: 25% 10%;
@@ -116,9 +125,10 @@ body {
 .logo {
   background-image: url(assets/ico/cleo.svg);
   background-size: cover;
-  height: auto;
-  width: auto;
+  height: 35vw;
+  width: 20vw;
   position: absolute;
+  left: 5vw;
 }
 
 .scroll_copy {
@@ -209,21 +219,23 @@ body {
 
 
 /* DESKTOP */
-@media (orientation: portrait) and (max-width: 500px) {
+@media (orientation: portrait) and (min-width: 1200px) {
   body {
-    max-width: 500px;
+    max-width: 600px;
   }
 
   .wrapper {
-  flex-direction: column;}
+    display:flex;
+  flex-direction: row;}
 }
 
 /* MOBIL */
-@media (orientation: portrait) and (min-width: 500px) {
+@media (orientation: portrait) and (min-width: 300px) {
     body {
-        width: 100vw;
-        height: 56.25vw;
+      max-width: 1200px;
     }
       .wrapper {
-      flex-direction: row;}
+      display:flex;
+      flex-direction: column;
+      }
 }
