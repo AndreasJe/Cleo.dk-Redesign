@@ -219,13 +219,9 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: 'https://i.imgur.com/sn1c064.png',
+    icon: 'https://img.icons8.com/officel/40/000000/marker.png',
     animation: google.maps.Animation.DROP,
-    label: {
-      text: '!'
-    },
+    title: 'Frisør Cleo'
   });
 
 }
-
-google.maps.event.addDomListener(window, "load", initMap);

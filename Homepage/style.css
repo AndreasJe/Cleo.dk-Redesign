@@ -1,3 +1,17 @@
+/* DESKTOP */
+@media and (min-width: 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .wrapper2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 /* <!-- \\  Fontface \\ --> */
 @font-face {
   font-family: 'Segoe UI Regular';
@@ -40,13 +54,14 @@ h2 {
   font-family: 'Segoe UI Regular';
   font-size: 3vw;
   color: white;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Segoe UI Italic';
   font-size: 3vw;
   color: white;
-  font-weight: 50;
+  font-weight: lighter;
   font-style: italic;
 }
 
@@ -54,7 +69,7 @@ p {
   font-family: 'Segoe UI Italic';
   font-size: 2.5vw;
   color: white;
-  font-weight: 50;
+  font-weight: lighter;
   font-style: italic;
 }
 
@@ -106,6 +121,14 @@ body {
   margin-bottom: 2vw;
   padding: 0;
   border-bottom: 0.1vw solid #B39B83;
+}
+
+.bread {
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  margin-right: 8vw;
+  margin-left: 8vw;
 }
 
 .txt {
@@ -247,30 +270,7 @@ img {
 
 .mySlides {
   display: none;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
 
 .text {
@@ -315,18 +315,4 @@ img {
   width: 97.5vw;
   height: 50vw;
   border: 3vw black;
-}
-
-/* DESKTOP */
-@media and (min-width: 600px) {
-  .wrapper {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .wrapper2 {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
 }
