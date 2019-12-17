@@ -6,6 +6,8 @@ h1 {
     background-color: #B39B83;
     text-align: center;
     color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /*
@@ -31,12 +33,23 @@ body {
     margin: 0;
 }
 
+.logo_bottom {
+    width: 100vw;
+    height: 20vw;
+    background-color: white;
+}
+
 
 #border_alting {
-    border: 10px;
+    border: 20px;
+    border-top: 0px;
     border-color: #B39B83;
     border-style: solid;
 
+}
+
+#h3_top_copy {
+    text-align: center;
 }
 
 padding {
@@ -110,7 +123,7 @@ body {
 
 h1 {
     font-family: 'Segoe UI Regular';
-    font-size: 5vw;
+    font-size: 2.7vw;
     text-transform: uppercase;
     color: white;
     text-align: center;
@@ -128,6 +141,7 @@ h3 {
     font-size: 1.6vw;
     color: white;
     font-style: italic;
+    text-align: center;
 }
 
 /* <!-- \\  Link Styling \\ --> */
