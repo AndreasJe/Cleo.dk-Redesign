@@ -115,11 +115,10 @@ a {
 }
 
 .profile {
-  height: 20vw;
-  width: 20vw;
+  height: 15vw;
+  width: 15vw;
   margin-left: 1vw;
   margin-right: 1vw;
-  margin-top: 2vw;
   margin-bottom: 2vw;
 }
 
@@ -129,7 +128,7 @@ a {
 }
 
 .narrow_container {
-  padding-top: 1.19vw;
+  padding-top: 3vw;
 }
 
 .container {
@@ -142,6 +141,7 @@ a {
 .container2 {
   padding-right: 1vw;
   padding-left: 1vw;
+  margin-top: 5vw;
 }
 
 .flex-container {
@@ -152,4 +152,8 @@ a {
 .flex-container2 {
   margin-left: 5vw;
   margin-right: 5vw;
+}
+
+.text {
+  font-size: 15vw;
 }
