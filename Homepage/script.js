@@ -1,4 +1,3 @@
-
 var slideIndex = 0;
 showSlides();
 
@@ -9,8 +8,10 @@ function showSlides() {
     slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
+  if (slideIndex > slides.length) {
+    slideIndex = 1
+  }
+  slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 6000); // Change image every 2 seconds
 }
 
@@ -201,7 +202,7 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
 
     center: myLatLng,
-    zoom: 16,
+    zoom: 14,
     mapTypeControl: false,
     keyboardShortcuts: false,
     mapTypeControlOptions: {
@@ -218,7 +219,8 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: myLatLng,
     map: map,
-    icon: 'https://img.icons8.com/dusk/64/000000/map-pin.png',
+    icon: 'https://img.icons8.com/officel/40/000000/marker.png',
+    animation: google.maps.Animation.DROP,
     title: 'Frisør Cleo'
   });
 
