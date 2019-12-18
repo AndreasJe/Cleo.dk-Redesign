@@ -1,0 +1,217 @@
+/* <!-- \\  Fontface \\ --> */
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('assets/fonts/Segoe UI.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Italic'), url('assets/fonts/Segoe UI Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('assets/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold Italic';
+  font-weight: normal;
+  src: local('Segoe UI Bold Italic'), url('assets/fonts/Segoe UI Bold Italic.woff') format('woff');
+}
+
+body
+/*
+
+html {
+  font-size: 100%;
+  margin: 0 2vw 0 2vw;
+}
+
+h1 {
+  background-color: #B39B83;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 1.4vw;
+  padding-bottom: 1.4vw;
+}
+
+#bg_txt {
+  color: #212020;
+  text-decoration: underline;
+}
+
+#prisliste {
+  margin: 0;
+}
+
+#border_alting {
+  border: 1vw;
+  border-top: 0px;
+  border-color: #B39B83;
+  border-style: solid;
+  background-color: #7A6054;
+}
+
+#h3_top_copy {
+  text-align: center;
+}
+
+padding {
+  background-color: #B39B83;
+}
+
+#alting {}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #E8E8E8;
+}
+
+@font-face {
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('assets/fonts/Segoe UI.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Italic'), url('assets/fonts/Segoe UI Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('assets/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold Italic';
+  font-weight: normal;
+  src: local('Segoe UI Bold Italic'), url('assets/fonts/Segoe UI Bold Italic.woff') format('woff');
+}
+
+/* <!-- \\  Tekst Styling \\ -->
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_nav {
+  text-align: left;
+  align-self: flex-start;
+}
+
+.right_nav {
+  text-align: end;
+  align-self: flex-end;
+}
+
+#h1_klip {
+  margin-top: 0;
+}
+
+#h1_farve {
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'Segoe UI Regular';
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Segoe UI Regular';
+  font-size: 1.7vw;
+  color: white;
+  text-align: center;
+  padding-left: 1vw;
+}
+
+h3 {
+  font-family: 'Segoe UI Italic';
+  font-size: 1.6vw;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+/* <!-- \\  Link Styling \\ -->
+a {
+  font-family: 'Segoe UI Regular';
+  font-size: 5vw;
+  text-transform: uppercase;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/* styling af diver
+.sectionwrapper {
+  width: 100%;
+}
+
+.wide_txt_container {
+  display: flex;
+}
+
+#logo_bottom {
+  width: 100vw;
+  height: 20vw;
+  background-color: #E8E8E8;
+}
+
+#logo_bottom_wrap {
+  display: flex;
+  flex-direction: row;
+  background-color: #E8E8E8;
+}
+
+#img1 {
+  background-image: url(assets/ico/olaplex_bk.svg);
+  height: 20vw;
+  width: 32vw;
+  margin: 5vw 0 5vw 5vw;
+}
+
+#img2 {
+  background-image: url(assets/ico/zenz_bk.svg);
+  height: 20vw;
+  width: 30vw;
+  margin: 5vw 0 5vw 2.5vw;
+}
+
+#img3 {
+  background-image: url(assets/ico/elleebana_bk.svg);
+  height: 20vw;
+  width: 30vw;
+  margin: 5vw 5vw 5vw 2.5vw;
+}
+
+.img_bottom {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 800px) {
+  #komb_wrap {
+    display: flex;
+  }
+} */
