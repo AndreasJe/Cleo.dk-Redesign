@@ -1,254 +1,256 @@
-/* <!-- \\  Fontface \\ --> */
-@font-face {
-    font-family: 'Segoe UI Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Regular'), url('assets/fonts/Segoe UI.woff') format('woff');
+.splash {
+  background-image: url(../../assets/img/eks.png);
+  background-size: cover;
+  height: 40vw;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  background-image: url(../../assets/ico/cleo.svg);
+  background-size: cover;
+  height: 35vw;
+  width: 20vw;
+  position: absolute;
+  left: 5vw;
 }
 
 @font-face {
-    font-family: 'Segoe UI Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Italic'), url('assets/fonts/Segoe UI Italic.woff') format('woff');
+  font-family: 'Segoe UI Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Regular'), url('../../assets/fonts/Segoe UI.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Segoe UI Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Segoe UI Bold'), url('assets/fonts/Segoe UI Bold.woff') format('woff');
+  font-family: 'Segoe UI Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Italic'), url('../../assets/fonts/Segoe UI Italic.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'Segoe UI Bold Italic';
-    font-weight: normal;
-    src: local('Segoe UI Bold Italic'), url('assets/fonts/Segoe UI Bold Italic.woff') format('woff');
+  font-family: 'Segoe UI Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Segoe UI Bold'), url('../../assets/fonts/Segoe UI Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Segoe UI Bold Italic';
+  font-weight: normal;
+  src: local('Segoe UI Bold Italic'), url('../../assets/fonts/Segoe UI Bold Italic.woff') format('woff');
 }
 
 /* <!-- \\  Tekst Styling \\ --> */
 h1 {
-    font-family: 'Segoe UI Regular';
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    margin: 0;
+  font-family: 'Segoe UI Regular';
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
-    font-family: 'Segoe UI Regular';
-    color: white;
-    font-weight: normal;
+  font-family: 'Segoe UI Regular';
+  color: white;
+  font-weight: normal;
 }
 
 h3 {
-    font-family: 'Segoe UI Italic';
-    color: white;
-    font-weight: lighter;
-    font-style: italic;
+  font-family: 'Segoe UI Italic';
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 p {
-    font-family: 'Segoe UI Italic';
-    color: white;
-    font-weight: lighter;
-    font-style: italic;
+  font-family: 'Segoe UI Italic';
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 /* <!-- \\  Link Styling \\ --> */
 a {
-    font-family: 'Segoe UI Regular';
-    text-transform: uppercase;
-    color: white;
+  font-family: 'Segoe UI Regular';
+  text-transform: uppercase;
+  color: white;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
 
 /* <!-- \\  Styling af de forskellige main-div'er. \\ --> */
 body {
-    background-color: #E8E8E8;
-    margin: 0;
-    padding: 0;
-    align-items: stretch;
+  background-color: #E8E8E8;
+  margin: 0;
+  padding: 0;
+  background-color: #B39B83;
 }
 
 .sectionwrapper {
-    margin: 0;
-    border: 0.5vw solid #B39B83;
-    background-color: #7A6054;
-    position: relative;
-    align-items: stretch;
+  margin: 0;
+  min-height: 100%;
+  border: 0.5vw solid #B39B83;
+  background-color: #7A6054;
+  position: relative;
 }
 
 .container {}
 
 .narrow_container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .txt_container {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    border-bottom: 0.1vw solid #B39B83;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  border-bottom: 0.1vw solid #B39B83;
 }
 
 .bread {
-    height: 100%;
-    width: 100%;
-    text-align: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .txt {
-    text-align: center;
+  text-align: center;
 }
 
 .txt1 {
-    text-align: left;
-    flex-grow: 1;
+  text-align: left;
+  flex-grow: 1;
 }
 
 .txt2 {
-    text-align: right;
-    flex-grow: 1;
+  text-align: right;
+  flex-grow: 1;
 }
 
 .img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .main_wrapper {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    align-items: stretch;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  align-items: stretch;
+  background-color: #B39B83;
 }
 
 .wrapper {
-    margin: 0;
+  margin: 0;
 }
 
-.wrapper2 {
-    margin: 0;
-}
+.wrapper2 {}
 
 /* <!-- \\  SO-ME section \\ --> */
 .flex-container {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .flex-container2 {
-    display: flex;
-    flex-direction: row;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.copy {}
+.copy {
+  width: 100%;
+  height: 100%;
+}
 
-.copy2 {}
+.copy2 {
+  width: 100%;
+  height: 100%;
+}
 
 /* <!-- \\  Overskrifter \\ --> */
 .title_block {
-    background-color: #B39B83;
-    text-align: center;
-    width: 100%;
-    top: 0;
-    position: absolute;
+  background-color: #B39B83;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  position: absolute;
 }
 
 .title {
-    text-align: center;
-    width: 100%;
-    top: 0;
-    position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  position: absolute;
 }
 
 .btn {
-    background-color: #B39B83;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.splash {
-    background-image: url(/Homepage/assets/img/eks.png);
-    background-size: cover;
-    height: 40vw;
-    width: 100%;
-    position: relative;
-    display: block;
-}
-
-.logo {
-    background-image: url(/Homepage/assets/ico/cleo.svg);
-    background-size: cover;
-    height: 35vw;
-    width: 20vw;
-    position: absolute;
-    left: 5vw;
+  background-color: #B39B83;
+  text-align: center;
 }
 
 /* <!-- \\  Galleri \\ --> */
 .slideshow-container {
-    width: 100%;
-    position: relative;
-    margin: auto;
+  width: 100%;
+  position: relative;
+  margin: auto;
 }
 
 .mySlides {
-    display: none;
-    width: 100%;
+  display: none;
+  width: 100%;
 }
 
 .text {
-    color: white;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
+  from {
+    opacity: .4
+  }
 
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-    from {
-        opacity: .4
-    }
+  from {
+    opacity: .4
+  }
 
-    to {
-        opacity: 1
-    }
+  to {
+    opacity: 1
+  }
 }
 
 /* <!-- \\  Google Map API \\ --> */
 #map {
-    width: 100%;
-    height: 50vw;
-    border: 3vw black;
+  width: 100%;
+  height: 50vw;
+  border: 3vw black;
 }
