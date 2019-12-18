@@ -71,6 +71,7 @@ body {
   background-color: #E8E8E8;
   margin: 0;
   padding: 0;
+  align-items: stretch;
 }
 
 .sectionwrapper {
@@ -78,6 +79,7 @@ body {
   border: 0.5vw solid #B39B83;
   background-color: #7A6054;
   position: relative;
+  align-items: stretch;
 }
 
 .container {}
@@ -129,6 +131,7 @@ img {
   margin: 0;
   padding: 0;
   width: 100vw;
+  align-items: stretch;
 }
 
 .wrapper {
@@ -141,6 +144,7 @@ img {
 
 /* <!-- \\  SO-ME section \\ --> */
 .flex-container {
+  height: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -173,14 +177,17 @@ img {
 .btn {
   background-color: #B39B83;
   text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 .splash {
-  background-image: url(assets/img/splash_eks.png);
+  background-image: url(assets/img/eks.png);
   background-size: cover;
   height: 40vw;
-  width: 100vw;
+  width: 100%;
   position: relative;
+  display: block;
 }
 
 .logo {

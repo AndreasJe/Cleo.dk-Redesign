@@ -105,9 +105,7 @@ body {
   margin: 5vw
 }
 
-.btn {
-  width: 100%;
-}
+.btn {}
 
 .title {
   height: 8vw;
@@ -137,8 +135,9 @@ h2 {
   font-size: 3vw;
 }
 
-h3 {
+h4 {
   font-size: 3vw;
+  margin: auto;
 }
 
 p {
