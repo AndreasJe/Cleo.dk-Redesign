@@ -127,6 +127,7 @@ a {
 
 .nav {
   height: 8vh;
+  padding-bottom: 2vw;
 }
 
 .right_nav {
@@ -147,4 +148,5 @@ a {
 
 .footer {
   margin: auto;
+  padding-top:2vw;
 }

@@ -50,8 +50,7 @@ wide_txt {
 .copy_txt {
   text-align: center;
   flex-grow: 1;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  margin:auto;
   width: 100%;
 }
 
@@ -105,23 +104,22 @@ p {
 }
 
 .nav {
-  height: 8vh;
+  height: 10vh;
+  overflow: hidden;
 }
 
 .right_nav {
   position: absolute;
-  top: 0.5vw;
   width: 23vw;
-  height: 3vw;
+  height: 3.5vw;
   right: 2vw;
 }
 
 .left_nav {
   position: absolute;
-  top: 0.5vw;
   left: 2vw;
   width: 20vw;
-  height: 3vw;
+  height: 3.5vw;
 }
 
 .flex_container {
